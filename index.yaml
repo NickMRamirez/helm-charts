@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   mychart:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2020-04-07T21:18:12.457997931-04:00"
+    description: A demo Helm chart
+    digest: 600dd36900d3569b82ba1120fbe6c7670eb7fd377deefa78945ca7811342eeda
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/NickMRamirez/helm-charts/releases/download/mychart-0.2.0/mychart-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2020-04-07T17:22:35.283859221-04:00"
     description: A demo Helm chart
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/NickMRamirez/helm-charts/releases/download/v0.1/mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-07T17:22:35.282709756-04:00"
+generated: "2020-04-07T21:18:12.45731051-04:00"
